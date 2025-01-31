@@ -117,7 +117,7 @@ body {
 .header-box-logo {
   margin-top: 11.25rem;
   width: 58.125rem;
-  margin-left: 10rem;
+
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 3px;
   border-left: 5px solid #00aaff;
@@ -150,7 +150,55 @@ body {
 }
 /* END Header content */
 
-/* START MOBALE Menu */
+/* START section-about */
+
+.section-about {
+  margin-top: 12.5rem;
+}
+.container-about {
+  width: 77.25rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #ebeef0;
+  border-top: 1px solid #ebeef0;
+  padding: 3rem 0;
+}
+
+.title-about {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 2.6875rem;
+}
+
+.wrapper-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 2.75rem;
+}
+
+.about-text {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20;
+  line-height: 160%;
+  color: #8d8c8a;
+  max-width: 490px;
+}
+
+.about-more {
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+.about-link {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0072ab;
+}
 
 @media (max-width: 1250px) {
   html {
