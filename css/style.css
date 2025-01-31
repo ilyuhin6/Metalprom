@@ -23,7 +23,8 @@ body {
   font-family: "Ubuntu", serif;
 }
 
-.top-info {
+.top-info,
+.header-nav {
   display: flex;
   padding: 1.5625rem 0;
   border-bottom: 1px solid #ebeef0;
@@ -31,7 +32,7 @@ body {
 
 .container-info {
   width: 100.625rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
   margin: 0 auto;
 }
 
@@ -40,15 +41,20 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.info-item,
-.info-item a {
+.info-item {
   display: flex;
   align-items: center;
   gap: 10px;
   color: #6b7179;
   font-size: 1rem;
+}
+
+.info-item a {
+  color: #6b7179;
 }
 
 .info-item address {
@@ -57,6 +63,7 @@ body {
 /* END TOP-INFO */
 
 /* START HEADER-NAV */
+
 .header-nav-link {
   color: #333333;
   font-weight: 400;
@@ -141,6 +148,9 @@ body {
   color: #333333;
   width: 38rem;
 }
+/* END Header content */
+
+/* START MOBALE Menu */
 
 @media (max-width: 1250px) {
   html {
@@ -151,5 +161,8 @@ body {
 @media (max-width: 1110px) {
   html {
     font-size: 11px;
+  }
+  .top-info {
+    display: none;
   }
 }
