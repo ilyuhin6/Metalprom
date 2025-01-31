@@ -6,7 +6,8 @@ ul,
 li,
 h1,
 h2,
-p {
+p,
+span {
   padding: 0;
   margin: 0;
 }
@@ -198,6 +199,91 @@ body {
   font-weight: 500;
   font-size: 1rem;
   color: #0072ab;
+}
+
+/* START section-product */
+
+.section-product {
+  margin-top: 7rem;
+}
+
+.title-product {
+  text-align: center;
+  margin-bottom: 5.5rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+.main-block-product {
+  background-color: #f7f8fa;
+  /* padding: rem 0; */
+}
+
+.container {
+  width: 77.25rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+}
+.about-product {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skils-product-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-about-product {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: -50px;
+}
+
+.skill-up {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: -0.625rem;
+}
+
+.skill-procent {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #0072ab;
+  margin-bottom: 10px;
+}
+
+.text-skill {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.product-image {
+  display: block;
+  width: 618px;
+  height: 557px;
+}
+
+.link-more-product {
+  text-decoration: none;
+  margin-top: 5.3125rem;
+  color: #0072ab;
+  border: 1px solid #cfd3da;
+  padding: 1.25rem 3.125rem;
 }
 
 @media (max-width: 1250px) {
