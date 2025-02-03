@@ -326,16 +326,44 @@ body {
 
 /* START section-biznes */
 
-.tsection-biznes {
-  padding: 7em 0;
+.title-section-biznes {
+  font-size: 48px;
+}
+
+.biznes-work {
+  background-image: url("../img/work-torch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
 }
 
 .title-section-biznes {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #333333;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.title-biznes-work-title {
+  color: #fff;
+  font-size: 48px;
+  max-width: 750px;
+}
+
+.title-biznes-work-right {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 135%;
+  color: #fff;
+  max-width: 43.75rem;
+}
+
+.biznes-work-right-text {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  max-width: 46rem;
 }
 
 @media (max-width: 1250px) {
