@@ -204,7 +204,7 @@ body {
 /* START section-product */
 
 .section-product {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .title-product {
@@ -260,7 +260,7 @@ body {
 }
 
 .container {
-  width: 77.25rem;
+  width: 81.25rem;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -324,17 +324,12 @@ body {
   padding: 1.25rem 5.125rem;
 }
 
-/* START section-biznes */
-
-.title-section-biznes {
-  font-size: 48px;
-}
+/* START section-biznes-work */
 
 .biznes-work {
   background-image: url("../img/work-torch.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 100px;
 }
 
 .title-section-biznes {
@@ -342,28 +337,63 @@ body {
   font-weight: 500;
   color: #333333;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4.5rem;
 }
 
-.title-biznes-work-title {
-  color: #fff;
-  font-size: 48px;
-  max-width: 750px;
+.biznes-work-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.title-biznes-work-right {
-  font-size: 2rem;
+.biznes-work-wrapper-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.biznes-work-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  /* border-bottom: 1px solid #888d91; */
+  padding: 1.875rem 0;
+}
+
+.biznes-work-content:last-child {
+  border-bottom: 1px solid #fff;
+}
+
+.title-biznes-work {
+  font-size: 3rem;
   font-weight: 500;
   line-height: 135%;
   color: #fff;
   max-width: 43.75rem;
 }
 
-.biznes-work-right-text {
+.biznes-work-left-text {
   font-size: 2rem;
   color: #fff;
   font-weight: 400;
   max-width: 46rem;
+}
+
+.biznes-work-right-text {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  padding-right: 2.25rem;
+}
+
+.link-work-product {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 5.3125rem;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1.25rem 5.125rem;
+  letter-spacing: 0.5px;
 }
 
 @media (max-width: 1250px) {
