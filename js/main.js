@@ -1,40 +1,13 @@
-const navbar = document.querySelector('.navbar');
-const logo = document.querySelector('.logo-svg use');
-const mMenuToggle = document.querySelector('.mobile-menu-toggle');
-const menu = document.querySelector('.mobile-menu');
+// Функция скрытия картинки превью при открытии аккардиона
+const accordionItems = document.querySelectorAll('.accordion-item');
 
-
-const lightModeOn = (event) => {
-  navbar.classList.add('navbar-light');
-  logo.href.baseVal = './img/sprite.svg#logo';
-};
-
-const lightModeOff = (event) => {
-  navbar.classList.remove('navbar-light');
-  logo.href.baseVal = './img/sprite.svg#logo-light';
-};
-
-
-const openMenu = (event) => {      // функция открывания меню
-  menu.classList.add('is-open');  // вешает класс is-open
-  mMenuToggle.classList.add('close-menu');  // добавляем класс с крестиком
-  document.body.style.overflow='hidden'; // запрещаем прокрутку
-  lightModeOn();
-};
-
-const closeMenu = (event) => {      // функция закрывания меню
-  mMenuToggle.classList.remove('close-menu');
-  menu.classList.remove('is-open');  // убирает класс is-open
-  document.body.style.overflow=''; // возращаем прокрутку
-  lightModeOff();
-};
-
-
-window.addEventListener('scroll', () => {
-  this.scrollY > 1 ?  lightModeOn() : lightModeOff();
-});
-
-mMenuToggle.addEventListener('click', (event) => {
-  event.preventDefault();
-  menu.classList.contains('is-open') ? closeMenu() : openMenu();
-});
+  accordionItems.forEach(item => {
+    item.addEventListener('toggle', function() {
+      const image = this.querySelector('.accordion-image-prev');
+      if (this.open) {
+        image.style.display = 'none'; // Скрыть изображение при открытии
+      } else {
+        image.style.display = 'block'; // Показать изображение при закрытии
+      }
+    });
+  });

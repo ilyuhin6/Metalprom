@@ -355,13 +355,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #ccc;
   /* border-bottom: 1px solid #888d91; */
   padding: 1.875rem 0;
 }
 
 .biznes-work-content:last-child {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
 }
 
 .title-biznes-work {
@@ -391,9 +391,76 @@ body {
   text-decoration: none;
   margin-top: 5.3125rem;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #ccc;
   padding: 1.25rem 5.125rem;
   letter-spacing: 0.5px;
+}
+
+/* START setion-consalting */
+/* Основные стили для аккордеона */
+.accordion {
+  margin: 0 auto;
+  max-width: 62.5rem;
+}
+
+.accordion-item {
+  position: relative;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin-bottom: 0.625rem;
+}
+
+.accordion-header {
+  max-width: 650px;
+  padding: 2.625rem 2.9375rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.5rem;
+  list-style: none; /* Убираем маркер у summary */
+}
+
+.accordion-header::-webkit-details-marker {
+  display: none; /* Скрываем стандартный маркер в Chrome */
+}
+
+.accordion-content {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.accordion-content-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #6b7179;
+  padding-left: 1.9375rem;
+  margin-bottom: 3.125rem;
+  max-width: 40rem;
+}
+
+.accordion-item[open] .accordion-content {
+  max-height: 200px; /* Максимальная высота содержимого */
+  padding: 10px 15px; /* Добавляем отступы при раскрытии */
+}
+
+.link-accordion-content {
+  padding-left: 1.9375rem;
+  padding-bottom: 2rem;
+}
+
+.accordion-image-prev {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.accordion-image-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
 
 @media (max-width: 1250px) {
