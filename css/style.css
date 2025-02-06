@@ -32,7 +32,7 @@ body {
 }
 
 .container-info {
-  width: 100.625rem;
+  max-width: 100.625rem;
   padding: 0 2rem;
   margin: 0 auto;
 }
@@ -157,7 +157,7 @@ body {
   margin-top: 12.5rem;
 }
 .container-about {
-  width: 77.25rem;
+  max-width: 77.25rem;
   margin: 0 auto;
   border-bottom: 1px solid #ebeef0;
   border-top: 1px solid #ebeef0;
@@ -260,7 +260,7 @@ body {
 }
 
 .container {
-  width: 81.25rem;
+  max-width: 81.25rem;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -427,7 +427,7 @@ body {
   padding: 0 15px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  transition: 0.5s;
 }
 
 .accordion-content-text {
@@ -461,6 +461,59 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
+}
+
+/* START section news */
+
+.title-news {
+  margin-top: -6.25rem;
+}
+
+.news-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news-post {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  max-width: 25.125rem;
+  border: 1px solid #ccc;
+}
+
+.news-post-image {
+  margin-bottom: 20px;
+}
+
+.news-post-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 140%;
+  margin-bottom: 2.5rem;
+}
+
+.date-and-tag {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+
+.news-button-more {
+  display: flex;
+  justify-content: center;
+}
+
+.news-link-more {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 4.5rem;
+  color: #00aaff;
+  border: 1px solid #ccc;
+  padding: 1.25rem 5.125rem;
+  letter-spacing: 0.5px;
 }
 
 @media (max-width: 1250px) {
