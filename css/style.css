@@ -533,8 +533,9 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  max-width: 45rem;
+  max-width: 28rem;
   width: 50%;
+  margin-left: 18%;
 }
 
 .cta-form-wrapper {
