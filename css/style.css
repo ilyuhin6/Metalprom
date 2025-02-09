@@ -634,7 +634,11 @@ body {
 }
 
 .cta-form-button {
+  background-color: #0072ab;
+  padding: 1.25rem 3.125rem;
   flex-shrink: 0;
+  border: none;
+  color: #fff;
 }
 
 .notify {
