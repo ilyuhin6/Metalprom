@@ -27,11 +27,14 @@ body {
 .top-info,
 .header-nav {
   display: flex;
+  justify-content: space-between;
   padding: 1.5625rem 0;
   border-bottom: 1px solid #ebeef0;
 }
 
 .container-info {
+  display: flex;
+  justify-content: space-between;
   max-width: 100.625rem;
   padding: 0 2rem;
   margin: 0 auto;
