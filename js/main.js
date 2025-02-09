@@ -1,5 +1,7 @@
 // Функция скрытия картинки превью при открытии аккардиона
 const accordionItems = document.querySelectorAll('.accordion-item');
+const mMenuToggle = document.querySelector('.mobile-menu-toggle');
+const menu = document.querySelector('.mobile-menu');
 
 accordionItems.forEach(item => {
   item.addEventListener('toggle', function() {
@@ -11,6 +13,31 @@ accordionItems.forEach(item => {
     }
   });
 });
+
+// Modal START
+let currentModal;   // текущие модальное окно
+let modalDialog;    // белое модальное окно
+let alertModal = document.querySelector('#alert-modal'); // Окно с предупреждением
+
+const modalButtons = document.querySelectorAll('[data-toggle=modal]');  // переключатели модальных окон
+modalButtons.forEach((button) => {
+  button.addEventListener('click', (event) => { /* клик по переключателю */
+    event.preventDefault();
+    currentModal = document.querySelector(button.dataset.target); // Определяем текущие модальное окно
+    currentModal.classList.toggle('is-open');  // открываем текущие окно
+    modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
+    currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
+      if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
+        currentModal.classList.remove('is-open');  // Закрываем окно
+      }
+    })
+  });
+});
+document.addEventListener('keyup', (event) => {
+    if (event.key == 'Escape' && currentModal.classList.contains('is-open')) {
+      currentModal.classList.toggle('is-open');
+    }
+  });
 
 //Validation Form
 const forms = document.querySelectorAll('form');  //Собираем все формы с тегом form
@@ -138,3 +165,6 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+
+
