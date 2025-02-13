@@ -14,6 +14,31 @@ accordionItems.forEach(item => {
   });
 });
 
+
+
+// START Slider Production
+
+    const swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".panel",
+        clickable: true,
+        renderBullet: (index, className) => {
+          return `<div class="${className}">
+            <div class="push push-${index + 1}">${index + 1}</div>     
+          </div>`;
+        },
+
+      },
+    });
+
+
+
+
+
+
+
+    
+
 // Modal START
 let currentModal;   // текущие модальное окно
 let modalDialog;    // белое модальное окно

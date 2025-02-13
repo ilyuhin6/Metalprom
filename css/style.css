@@ -230,6 +230,7 @@ body {
   background-color: #0072ab;
   height: 100%;
   padding-top: 3.125rem;
+  z-index: 2;
 }
 
 .product-pagination-list {
