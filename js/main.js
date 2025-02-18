@@ -14,6 +14,31 @@ accordionItems.forEach(item => {
   });
 });
 
+
+
+// START Slider Production
+
+    const swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".panel",
+        clickable: true,
+        renderBullet: (index, className) => {
+          return `<div class="${className}">
+            <div class="push push-${index + 1}">${index + 1}</div>     
+          </div>`;
+        },
+
+      },
+    });
+
+
+
+
+
+
+
+    
+
 // Modal START
 let currentModal;   // текущие модальное окно
 let modalDialog;    // белое модальное окно
@@ -80,7 +105,7 @@ validation
           alertModal.classList.add('is-open');
           currentModal = alertModal;
           modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
-    currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
+          currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
       if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
         currentModal.classList.remove('is-open');  // Закрываем окно
       }
