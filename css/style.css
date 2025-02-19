@@ -1078,4 +1078,10 @@ START Footer Top */
   .header-box-text {
     width: auto;
   }
+  .header-box-logo {
+    padding: 1rem;
+  }
+  .container-about {
+    padding: 0 1rem;
+  }
 }
