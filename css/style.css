@@ -1070,3 +1070,12 @@ START Footer Top */
     margin-top: 3.75rem;
   }
 }
+
+@media (max-width: 400px) {
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-box-text {
+    width: auto;
+  }
+}
