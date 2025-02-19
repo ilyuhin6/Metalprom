@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <style>
+    :root {
+      --img-1: url(https://slesareva-gala.github.io/forCodePen/img/drone.png);
+      --img-2: url(https://slesareva-gala.github.io/forCodePen/img/on.png);
+      --img-3: url(https://slesareva-gala.github.io/forCodePen/img/off.png);
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 100px !important;
+      background-color: rgb(60, 60, 114);
+    }
+
+    .swiper {
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-pagination-bullet {
+      position: relative;
+      width: 100px;
+      height: 70px;
+      border-radius: 0 !important;
+      background: rgba(101, 113, 142, 0.2);
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      color: #fff;
+      background: rgba(0, 122, 255, 1);
+    }
+
+    .swiper-pagination-bullet-active:before {
+      content: "";
+      height: 0;
+      width: 0;
+      left: unset;
+      right: -25px;
+      position: absolute;
+      border-top: 35px solid transparent;
+      border-left: 25px solid rgba(0, 122, 255, 1);
+      border-bottom: 35px solid transparent;
+      z-index: 100;
+    }
+
+    .push {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+
+    .push-1 {
+      background: var(--img-1);
+      background-size: 100% 100%;
+    }
+
+    .push-2 {
+      background: var(--img-2);
+      background-size: 100% 100%;
+    }
+
+    .push-3 {
+      background: var(--img-3);
+      background-size: 100% 100%;
+    }
+
+    .push-4 {
+      background: var(--img-1);
+    }
+  </style>
+
+
+
+
+
+
+
+  <div class="wrapper">
+    <div class="panel"></div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".panel",
+        clickable: true,
+        renderBullet: (index, className) => {
+          return `<div class="${className}">
+            <div class="push push-${index + 1}">${index + 1}</div>     
+          </div>`;
+        },
+
+      },
+    });
+  </script>
+  <!-- <script src="./js/"></script> -->
+</body>
+
+</html>

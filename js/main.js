@@ -105,7 +105,7 @@ validation
           alertModal.classList.add('is-open');
           currentModal = alertModal;
           modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
-    currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
+          currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
       if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
         currentModal.classList.remove('is-open');  // Закрываем окно
       }
