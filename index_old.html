@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Металпром</title>
@@ -120,15 +122,92 @@
         </div>
     </section>
 
-    <!-- START SECTION PRODUCT SLIDER -->
-    <section class="section section-product product-slider">
+    <section class="section section-product">
         <h2 class="title-product">
             Выпускаемая продукция
         </h2>
         <div class="main-block-product">
 
-            <?php include_once('./slider-big-display.php'); ?>
 
+            <!-- START Pagintaion slider-product company -->
+            <div class="product-pagination">
+                <div class="product-pagination-wrapper">
+                    <ul class="product-pagination-list">
+                        <li class="product-pagination-item">
+                            <a href="" class="product-pagination-link">
+                                <img src="./img/pagination/icon-polosobulb.svg" alt="" class="product-pagination-icon"
+                                    width="45" height="45">
+                            </a>
+                        </li>
+                        <li class="product-pagination-item">
+                            <a href="" class="product-pagination-link">
+                                <img src="./img/pagination/icon-profil.svg" alt="" class="product-pagination-icon"
+                                    width="45" height="45">
+                            </a>
+                        </li>
+                        <li class="product-pagination-item">
+                            <a href="" class="product-pagination-link">
+                                <img src="./img/pagination/icon-prokat.svg" alt="" class="product-pagination-icon"
+                                    width="45" height="45">
+                            </a>
+                        <li class="product-pagination-item">
+                            <a href="" class="product-pagination-link">
+                                <img src="./img/pagination/icon-shari.svg" alt="" class="product-pagination-icon"
+                                    width="45" height="45">
+                            </a>
+                        </li>
+                        <li class="product-pagination-item">
+                            <a href="" class="product-pagination-link">
+                                <img src="./img/pagination/icon-ugolki.svg" alt="" class="product-pagination-icon"
+                                    width="45" height="45">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ENDPagintaion slider -->
+                <!-- /.product-pagination-wrapper -->
+            </div>
+            <!-- /.product-pagination -->
+
+
+            <!-- START Slider PRODUCT -->
+            <div class="container">
+                <div class="product-wrapper">
+                    <div class="skils-product-wrapper">
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">10<sub>%</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">80<sub>%</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">1.5<sub>раз</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+
+                    </div>
+                    <div class="about-product">
+                        <h3 class="title-about-product">листовая сталь</h3>
+                        <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567"
+                            class="image-about-product">
+                        <a href="#" class="link-more-product">подробнее</a>
+                    </div>
+                    <div class="skils-product-wrapper">
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">30<sub>%</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">10<sub>%</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+
+                        <span class="skill-up">На</span>
+                        <span class="skill-procent">10<sub>%</sub></span>
+                        <span class="text-skill">уменьшение массогабаритных показателей</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -338,7 +417,8 @@
                         </div>
                         <!-- /.input-group -->
                         <div class="input-group">
-                            <input id="user-phone" name="userphone" type="tel" class="input phone-mask" placeholder=" " required />
+                            <input id="user-phone" name="userphone" type="tel" class="input phone-mask" placeholder=" "
+                                required />
                             <label class="input-group-label" for="user-phone">Номер телефона</label>
                         </div>
                         <!-- /.input-group -->
@@ -375,12 +455,14 @@
             <form action="./handler.php" method="POST" class="modal-form">
                 <div class="input-group-wrapper input-group-vertical">
                     <div class="input-group modal-input-group">
-                        <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder=" " required />
+                        <input id="modal-user-name" type="text" name="username" class="input modal-input"
+                            placeholder=" " required />
                         <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
                     </div>
                     <!-- /.input-group -->
                     <div class="input-group modal-input-group">
-                        <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input phone-mask" placeholder=" " required />
+                        <input id="modal-user-phone" type="tel" name="userphone" class="input modal-input phone-mask"
+                            placeholder=" " required />
                         <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
                     </div>
                     <!-- /.input-group -->
@@ -593,7 +675,6 @@
     <!-- /.modal -->
 
     <script src="./js/just-validate.production.min.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 
 </body>
