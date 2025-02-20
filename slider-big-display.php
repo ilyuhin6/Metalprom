@@ -1,23 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/swiper-bundle.css">
-
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Металпром</title>
-</head>
-
-<body> -->
-
 <style>
   :root {
     --img-1: url("./img/pagination/icon-polosobulb.svg");
@@ -27,20 +7,6 @@
     --img-5: url("./img/pagination/icon-ugolki.svg");
   }
 
-  /* html,
-    body {
-      position: relative;
-      height: 100%;
-    }
-
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    } */
 
   .wrapper {
     display: flex;
@@ -339,14 +305,3 @@
     </div>
   </div>
 </div>
-
-
-
-
-<!-- </script>
-<script src="./js/just-validate.production.min.js"></script>
-<script src="./js/swiper-bundle.min.js"></script>
-<script src="./js/main.js"></script> -->
-<!-- </body>
-
-</html> -->

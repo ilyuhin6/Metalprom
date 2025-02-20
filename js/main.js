@@ -1,8 +1,18 @@
+
+
 // Функция скрытия картинки превью при открытии аккардиона
 const accordionItems = document.querySelectorAll('.accordion-item');
 const mMenuToggle = document.querySelector('.mobile-menu-toggle');
 const menu = document.querySelector('.mobile-menu');
 
+//Мобильное меню
+mMenuToggle.addEventListener("click", (event) => {
+  event.preventDefault();
+  menu.classList.toggle("is-open");
+});
+
+
+// Раскрывашка
 accordionItems.forEach(item => {
   item.addEventListener('toggle', function() {
     const image = this.querySelector('.accordion-image-prev');
@@ -16,7 +26,11 @@ accordionItems.forEach(item => {
 
 
 
-// START Slider Production
+
+
+
+
+// START Slider Production BIG Dislay
 
     const swiper = new Swiper(".mySwiper", {
       pagination: {
@@ -31,6 +45,26 @@ accordionItems.forEach(item => {
       },
     });
 
+
+
+
+// START Slider Mobail DISPLAY
+    var swiperMobailDisplay = new Swiper(".mySwiper-litle-display", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
 
 
 

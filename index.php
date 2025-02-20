@@ -15,6 +15,84 @@
 
 
 <body>
+
+
+    <!-- START MOBILE MENU -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="./about.html">О компании</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="./contracts.php">Контрактное производство</a>
+                <ul class="mobile-submenu">
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="./product-avtohim.php">Автомобильная химия</a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="./trademarks.php">Собственные торговые марки</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="./blog.php">Новости</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="">Контакты</a>
+            </li>
+        </ul>
+
+        <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+        <div class="mobile-info">
+            <!-- <svg class="address-svg">
+                <use href="./img/sprite.svg#address"></use>
+            </svg> -->
+            <img src="./img/svg/address.svg" alt="address">
+            <address class="mobile-info-address">
+                г. Мосвка, Холодильный пер. 4к1с8
+            </address>
+        </div>
+        <div class="mobile-info">
+            <!-- <svg class="mail-svg">
+                <use href="./img/sprite.svg#mail"></use>
+            </svg> -->
+            <img src="./img/svg/mail.svg" alt="mail">
+            <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
+                a.dragunov@tdaliance.ru
+            </a>
+        </div>
+        <div class="mobile-social-link">
+            <a href="#">
+                <!-- <svg class="vk-svg">
+                    <use href="./img/sprite.svg#vk"></use>
+                </svg> -->
+                <img src="./img/svg/vk.svg" alt="vk">
+            </a>
+            <a href="#">
+                <!-- <svg class="inst-svg">
+                    <use href="./img/sprite.svg#inst"></use>
+                </svg> -->
+                <img src="./img/svg/inst.svg" alt="insta">
+            </a>
+        </div>
+    </div>
+
+
     <div class="top-info">
         <div class="container-info">
             <div class="wrapper-info">
@@ -39,6 +117,15 @@
     <header class="header">
         <nav class="header-nav">
             <div class="container-info">
+
+
+                <!-- BURGER MENU -->
+                <a href="#" class="mobile-menu-toggle">
+                    <div class="mobile-menu-line"></div>
+                    <div class="mobile-menu-line"></div>
+                    <div class="mobile-menu-line"></div>
+                </a>
+
                 <ul class="header-nav-list info-list">
                     <li class="header-nav-item">
                         <a href="" class="header-nav-link">
@@ -130,11 +217,13 @@
         <h2 class="title-product">
             Выпускаемая продукция
         </h2>
-        <div class="main-block-product">
-
-            <?php include_once('./slider-big-display.php'); ?>
-
+        <div class="main-block-product-mabaile">
+            <?php include_once('./slider-mobail-display.php'); ?>
         </div>
+        <div class="main-block-product">
+            <?php include_once('./slider-big-display.php'); ?>
+        </div>
+
     </section>
 
     <!-- START Section Biznes -->
