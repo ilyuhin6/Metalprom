@@ -2,8 +2,8 @@
 $user_name = htmlspecialchars($_POST['username']);
 $user_phone = htmlspecialchars($_POST['userphone']);
 
-$token = '7925418811:AAHp04YDPKID5hEWvE8uUD866VIMbZq6A6Y';
-$chat_id = '-4730914854';;
+$token = '7925418811:AAHp04YDPKID5hEWvE4343gh434kN8uUD866VIMbZq6A6Y';
+$chat_id = '-473091452';;
 
 
 $formData = array(
