@@ -131,7 +131,7 @@
             </div>
             <div class="about-product">
               <h3 class="title-about-product">листовая сталь</h3>
-              <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567" class="image-about-product">
+              <img src="./img/product/04.jpg" alt="ствль" width="618" height="567" class="image-about-product">
               <a href="#" class="link-more-product">подробнее</a>
             </div>
             <div class="skils-product-wrapper">
@@ -168,8 +168,8 @@
 
             </div>
             <div class="about-product">
-              <h3 class="title-about-product">листовая сталь</h3>
-              <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567" class="image-about-product">
+              <h3 class="title-about-product">металлопрокат</h3>
+              <img src="./img/product/01.jpg" alt="ствль" width="618" height="567" class="image-about-product">
               <a href="#" class="link-more-product">подробнее</a>
             </div>
             <div class="skils-product-wrapper">
@@ -206,8 +206,8 @@
 
             </div>
             <div class="about-product">
-              <h3 class="title-about-product">листовая сталь</h3>
-              <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567" class="image-about-product">
+              <h3 class="title-about-product">рельсы</h3>
+              <img src="./img/product/05.jpg" alt="ствль" width="618" height="567" class="image-about-product">
               <a href="#" class="link-more-product">подробнее</a>
             </div>
             <div class="skils-product-wrapper">
@@ -244,8 +244,8 @@
 
             </div>
             <div class="about-product">
-              <h3 class="title-about-product">листовая сталь</h3>
-              <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567" class="image-about-product">
+              <h3 class="title-about-product">шары</h3>
+              <img src="./img/product/03.jpg" alt="ствль" width="618" height="567" class="image-about-product">
               <a href="#" class="link-more-product">подробнее</a>
             </div>
             <div class="skils-product-wrapper">
@@ -282,8 +282,8 @@
 
             </div>
             <div class="about-product">
-              <h3 class="title-about-product">листовая сталь</h3>
-              <img src="./img/product/stal.jpg" alt="ствль" width="618" height="567" class="image-about-product">
+              <h3 class="title-about-product">швеллер</h3>
+              <img src="./img/product/02.jpg" alt="ствль" width="618" height="567" class="image-about-product">
               <a href="#" class="link-more-product">подробнее</a>
             </div>
             <div class="skils-product-wrapper">

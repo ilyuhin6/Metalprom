@@ -1,14 +1,28 @@
 
 
-// Функция скрытия картинки превью при открытии аккардиона
+// переменые
 const accordionItems = document.querySelectorAll('.accordion-item');
 const mMenuToggle = document.querySelector('.mobile-menu-toggle');
 const menu = document.querySelector('.mobile-menu');
 
-//Мобильное меню
+//Функция открывания мобильного меню
+const openMenu = (event) => {
+  menu.classList.add("is-open"); // Вешаем класс is-open
+  mMenuToggle.classList.add("close-menu"); // Вешаем класс close-menu
+  document.body.style.overflow="hidden"; //Запрет прокрутки вертикальный скрол
+};
+
+//Функция закрывания мобильного меню
+const closeMenu = (event) => {
+  menu.classList.remove("is-open");
+  mMenuToggle.classList.remove("close-menu");
+  document.body.style.overflow=""; //возврат прокрутки вертикальный скрол
+};
+
+//Мобильное меню закрыть или открыть
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
-  menu.classList.toggle("is-open");
+  menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
 
@@ -41,7 +55,6 @@ accordionItems.forEach(item => {
             <div class="push push-${index + 1}">${index + 1}</div>     
           </div>`;
         },
-
       },
     });
 

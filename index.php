@@ -24,30 +24,30 @@
                 <a class="mobile-menu-link" href="./about.html">О компании</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a class="mobile-menu-link" href="./contracts.php">Контрактное производство</a>
+                <a class="mobile-menu-link" href="./contracts.php">наша продукция</a>
                 <ul class="mobile-submenu">
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="./product-avtohim.php">Автомобильная химия</a>
+                        <a class="mobile-submenu-link" href="./product-avtohim.php">Швеллеры стальные</a>
                     </li>
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+                        <a class="mobile-submenu-link" href="#">Шары стальные</a>
                     </li>
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
+                        <a class="mobile-submenu-link" href="#">Уголки стальные</a>
                     </li>
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+                        <a class="mobile-submenu-link" href="#">Профиль</a>
                     </li>
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
+                        <a class="mobile-submenu-link" href="#">Прокат</a>
                     </li>
                     <li class="mobile-submenu-item">
-                        <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+                        <a class="mobile-submenu-link" href="#">Полособульб</a>
                     </li>
                 </ul>
             </li>
             <li class="mobile-menu-nav-item">
-                <a class="mobile-menu-link" href="./trademarks.php">Собственные торговые марки</a>
+                <a class="mobile-menu-link" href="./trademarks.php">подбор персонала</a>
             </li>
             <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-link" href="./blog.php">Новости</a>
@@ -55,16 +55,22 @@
             <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-link" href="">Контакты</a>
             </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="" data-toggle="modal" data-target="#feedback-modal">получить консультацию</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-link" href="">вход</a>
+            </li>
         </ul>
 
-        <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+        <a href="tel:+74996861014" class="mobile-phone">8-800-380-00-60</a>
         <div class="mobile-info">
             <!-- <svg class="address-svg">
                 <use href="./img/sprite.svg#address"></use>
             </svg> -->
             <img src="./img/svg/address.svg" alt="address">
             <address class="mobile-info-address">
-                г. Мосвка, Холодильный пер. 4к1с8
+                г. Гурьевск, ул. Университетская, д. 2
             </address>
         </div>
         <div class="mobile-info">
@@ -94,8 +100,20 @@
 
 
     <div class="top-info">
+        <!-- BURGER MENU -->
+        <div class="mobile-header-menu">
+            <div class="mobaile-header-toggle">
+                <a href="#" class="mobile-menu-toggle">
+                    <div class="mobile-menu-line"></div>
+                    <div class="mobile-menu-line"></div>
+                    <div class="mobile-menu-line"></div>
+                </a>
+            </div>
+        </div>
+
         <div class="container-info">
             <div class="wrapper-info">
+
                 <ul class="info-list">
                     <li class="info-item">
                         <img src="./img/icon/Location.svg" alt="локация" width="30" height="30">
@@ -116,20 +134,14 @@
 
     <header class="header">
         <nav class="header-nav">
+
             <div class="container-info">
 
-
-                <!-- BURGER MENU -->
-                <a href="#" class="mobile-menu-toggle">
-                    <div class="mobile-menu-line"></div>
-                    <div class="mobile-menu-line"></div>
-                    <div class="mobile-menu-line"></div>
-                </a>
 
                 <ul class="header-nav-list info-list">
                     <li class="header-nav-item">
                         <a href="" class="header-nav-link">
-                            компания
+                            О компании
                         </a>
                     </li>
                     <li class="header-nav-item">
@@ -153,7 +165,7 @@
                         </a>
                     </li>
                     <li class="header-nav-item">
-                        <a href="" class="header-nav-link">
+                        <a href="" class="header-nav-link" data-toggle="modal" data-target="#feedback-modal">
                             получить консультацию
                         </a>
                     </li>
@@ -217,12 +229,16 @@
         <h2 class="title-product">
             Выпускаемая продукция
         </h2>
-        <div class="main-block-product-mabaile">
-            <?php include_once('./slider-mobail-display.php'); ?>
-        </div>
+
+        <!-- SLIDER BIG DISPLAY -->
         <div class="main-block-product">
             <?php include_once('./slider-big-display.php'); ?>
         </div>
+
+        <!-- PRODUCT mobile display -->
+
+
+
 
     </section>
 
