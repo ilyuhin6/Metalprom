@@ -2,11 +2,7 @@
 $user_name = htmlspecialchars($_POST['username']);
 $user_phone = htmlspecialchars($_POST['userphone']);
 
-// $token = '7925418811:AAHp04YDPKID5hEWvE8uUD866VIMbZq6A6Y';
-// $chat_id = '-4730914854';;
 
-$token = '7340250234:AAFQbOaMOcEyovNU42ukC8oHQi3B3NGC1DU';
-$chat_id = '-1002498990517';
 
 
 
