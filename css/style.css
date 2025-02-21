@@ -352,10 +352,16 @@ body {
   gap: 20px;
 }
 
-/* .biznes-ok-jobs {
-  max-width: 38.125rem;
-} */
-
+.biznes-card-projekt {
+  position: relative;
+}
+.biznes-card-projekt-descr {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 1rem 4.875rem 1rem 2.375rem;
+}
 .biznes-work {
   background-image: url("../img/work-torch.jpg");
   background-size: cover;
@@ -1034,7 +1040,8 @@ START Footer Top */
     display: none;
   }
   .biznes-blog-image {
-    width: 98%;
+    width: 100%;
+    height: 100%;
   }
   .footer-down-partners {
     display: none;
