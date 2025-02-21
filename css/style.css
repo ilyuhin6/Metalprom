@@ -29,6 +29,35 @@ body {
   display: none;
 }
 
+/* START PAGE HEADER */
+.about-page-title {
+  /* margin-top: -80px; */
+  background-color: #f0f2f5;
+  padding: 3rem;
+  color: #333333;
+}
+
+.about-page-title {
+  font-weight: 600;
+  font-size: 1.875rem;
+}
+.wrapper-aboute-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.aboute-page-text {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #8d8c88;
+}
+.aboute-page-content {
+  margin-top: 40px;
+  padding-left: 3.125rem;
+}
+
 .top-info,
 .header-nav {
   display: flex;
@@ -750,7 +779,6 @@ body {
 }
 
 .modal-title {
-  font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;
   font-size: 3rem;
@@ -1023,6 +1051,9 @@ START Footer Top */
     flex-direction: column;
     gap: 10px;
   }
+  .aboute-page-image {
+    display: none;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1033,9 +1064,12 @@ START Footer Top */
     display: block;
   }
   .container {
-    max-width: 30rem;
     padding: 0 0.625rem;
   }
+  .section-page-header {
+    margin-top: 50px;
+  }
+
   .header-image {
     display: none;
   }
@@ -1064,6 +1098,7 @@ START Footer Top */
 
 @media (max-width: 580px) {
   /* START MOBAILE BURGER MENU */
+
   .top-info {
     border: none;
   }
