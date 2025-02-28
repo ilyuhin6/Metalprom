@@ -30,9 +30,8 @@ body {
 }
 
 /* START PAGE HEADER */
+
 .about-page-title {
-  /* margin-top: -80px; */
-  background-color: #f0f2f5;
   padding: 3rem;
   color: #333333;
 }

@@ -21,7 +21,7 @@
     <div class="mobile-menu">
         <ul class="mobile-menu-nav">
             <li class="mobile-menu-nav-item">
-                <a class="mobile-menu-link" href="./about.html">О компании</a>
+                <a class="mobile-menu-link" href="./about.php">О компании</a>
             </li>
             <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-link" href="./contracts.php">наша продукция</a>
@@ -140,7 +140,7 @@
 
                 <ul class="header-nav-list info-list">
                     <li class="header-nav-item">
-                        <a href="" class="header-nav-link">
+                        <a href="./about.php" class="header-nav-link">
                             О компании
                         </a>
                     </li>
@@ -280,48 +280,13 @@
     </section>
 
     <!-- START section biznes-work -->
-    <section class="section section-biznes-work">
-        <h2 class="title-section-biznes">Технический рекрутинг</h2>
-        <div class="biznes-work">
-            <div class="container">
-                <div class="biznes-work-wrapper">
-                    <div class="biznes-work-left">
-                        <h3 class="title-biznes-work">
-                            Подбор технического персонала с гарантиями
-                        </h3>
-                        <p class="biznes-work-left-text">
-                            Узкоспециализированный экспертный подход к поиску лучших сотрудников в нашу компанию.
-                        </p>
-                        <a href="#" class="link-work-product">открыттые вакансии</a>
-                    </div>
-                    <div class="biznes-work-wrapper-right">
-                        <div class="biznes-work-content">
-                            <p class="biznes-work-right-text">
-                                Информационные <br> технологии
-                            </p>
-                            <img src="./img/icon/work.svg" alt="">
-                        </div>
-                        <div class="biznes-work-content">
-                            <p class="biznes-work-right-text">
-                                производство
-                            </p>
-                            <img src="./img/icon/work.svg" alt="">
-                        </div>
-                        <div class="biznes-work-content">
-                            <p class="biznes-work-right-text">
-                                Энергетика
-                            </p>
-                            <img src="./img/icon/work.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+    include_once('./tempalate-page/block-jobs.php');
+    ?>
 
     <!-- START Section consalting -->
     <?php
-    include_once('./consating.php');
+    include_once('./tempalate-page/consating.php');
     ?>
 
     <!-- START Section-news -->

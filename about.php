@@ -1,24 +1,14 @@
 <style>
-  .about-page-title {
-    margin-top: -80px;
-    background-color: #f0f2f5;
+  .about-container {
+    max-width: 83rem;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 
-  .aboute-page-text {
-    color: #8d8c88;
+  .about-header-bg {
+    background-color: #F0F2F5;
   }
 </style>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <?php
@@ -26,37 +16,15 @@ include_once('./header-page.php');
 ?>
 
 <section class="section-page-header">
-  <div class="container">
-    <h2 class="about-page-title">О компании</h2>
-    <div class="wrapper-aboute-page">
-      <div class="aboute-page-content">
-        <h3 class="aboute-page-title-contenet">О нас</h3>
-        <p class="aboute-page-text">
-          Оснащено обжимной клетью «700» и станом «500/400», расположенным в две линии.
-          В обжимной клети из слитка, поступающего из мартеновского цеха, получают квадрат, затем его раскраивают на ножницах горячей резки металла и подают в стан «500».
-        </p><br>
-        <p class="aboute-page-text">
-          Особенность прокатного производства Гурметзавода заключается в том, что станы его линейные. <br>Они легко перенастраиваются и дают возможность производить желаемые, в том числе и небольшие, партии проката сложного профиля, любой конфигурации.
-        </p><br>
-        <p class="aboute-page-text">
-          Готовый прокат поступает на реечный холодильник, раскраивается на отрезки мерной длины пилами горячей резки или прессом холодной резки металла. Весь фасонный прокат проходит правку на ролеправильных машинах. Готовая продукция упаковывается специальной металлической лентой и маркируется пластиковыми бирками со штрих-кодом.
-        </p>
-        <h3>1. Мощное оборудование</h3>
-        <p class="aboute-page-text">Оснащено обжимной клетью «700» и станом «500/400», что позволяет производить высококачественный прокат.</p>
-
-        <h3>2. Гибкость производства</h3>
-        <p class="aboute-page-text">Линейные станы легко перенастраиваются, что даёт возможность выпускать продукцию сложного профиля даже в небольших партиях.</p>
-
-        <h3>3. Технологичность процессов</h3>
-        <p class="aboute-page-text">Использование ножниц горячей резки металла и прессов холодной резки обеспечивает точность и эффективность обработки.</p>
-      </div>
-      <img src="./img/cta.png" alt="" class="aboute-page-image">
+  <div class="about-header-bg">
+    <div class="about-container">
+      <h2 class="about-page-title">О компании</h2>
     </div>
   </div>
 </section>
 
 <?php
-include_once('./consating.php');
+include_once('./tempalate-page/consating.php');
 ?>
 
 <?php
