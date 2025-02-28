@@ -29,18 +29,134 @@ body {
   display: none;
 }
 
-/* START PAGE HEADER */
+/* START PAGE-ABOUT HEADER */
 
 .about-page-title {
-  padding: 3rem;
+  padding-top: 2rem;
   color: #333333;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.breadcrumb-link {
+  text-decoration: none;
+  color: #828a99;
+  line-height: 160%;
 }
 
-.about-page-title {
-  font-weight: 600;
-  font-size: 1.875rem;
+.breadcrumb-list li:not(:first-child)::before {
+  content: "—";
+  color: #828a99;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 160%;
+  margin: 0 0.625rem;
 }
-.wrapper-aboute-page {
+
+.section-page-content {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.about-container {
+  max-width: 83rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-header-bg {
+  background-color: #f0f2f5;
+}
+
+.wrapper-page-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.9375rem;
+}
+
+.about-content-image {
+  max-width: 37.5rem;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.page-about-title {
+  color: #292d33;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.page-about-text {
+  max-width: 45rem;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #8d8c8a;
+}
+
+.about-content-list {
+  list-style: none;
+  margin-top: 1.875rem;
+  columns: 2 auto;
+}
+
+.about-content-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1rem;
+}
+
+.section-page-fonder-content {
+  position: relative;
+  min-height: 41.25rem;
+}
+
+.founder-image {
+  position: absolute;
+  top: 1.6rem;
+  left: 0;
+  width: 44.1%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-about-founder-content {
+  max-width: 53.8125rem;
+}
+
+.about-founder-image {
+  width: 100%;
+}
+
+.wrapper-page-founder-about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .wrapper-aboute-page {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -55,7 +171,7 @@ body {
 .aboute-page-content {
   margin-top: 40px;
   padding-left: 3.125rem;
-}
+} */
 
 .top-info,
 .header-nav {
@@ -126,7 +242,15 @@ body {
   transform: scaleX(1);
 }
 
-.header-nav-link:hover {
+.header-nav-link:active {
+  color: #00aaff;
+}
+
+.header-nav-link:active:after {
+  transform: scaleX(1);
+}
+
+.header-nav-link:focus {
   color: #00aaff;
 }
 /* END HEADER-NAV */

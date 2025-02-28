@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/swiper-bundle.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css" />
-  <title>Металпром</title>
+  <title>Металпром - <?= $page_title; ?></title>
 </head>
 
 
@@ -140,13 +140,18 @@
 
         <ul class="header-nav-list info-list">
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">
-              О компании
+            <a href="/" class="header-nav-link">
+              главная
             </a>
           </li>
           <li class="header-nav-item">
             <a href="" class="header-nav-link">
-              наша продукция
+              о нас
+            </a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link">
+              продукция
             </a>
           </li>
           <li class="header-nav-item">
@@ -156,7 +161,7 @@
           </li>
           <li class="header-nav-item">
             <a href="" class="header-nav-link">
-              нововсти
+              новости
             </a>
           </li>
           <li class="header-nav-item">

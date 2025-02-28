@@ -140,13 +140,18 @@
 
                 <ul class="header-nav-list info-list">
                     <li class="header-nav-item">
+                        <a href="/" class="header-nav-link">
+                            главная
+                        </a>
+                    </li>
+                    <li class="header-nav-item">
                         <a href="./about.php" class="header-nav-link">
-                            О компании
+                            о нас
                         </a>
                     </li>
                     <li class="header-nav-item">
                         <a href="" class="header-nav-link">
-                            наша продукция
+                            продукция
                         </a>
                     </li>
                     <li class="header-nav-item">
@@ -156,7 +161,7 @@
                     </li>
                     <li class="header-nav-item">
                         <a href="" class="header-nav-link">
-                            нововсти
+                            новости
                         </a>
                     </li>
                     <li class="header-nav-item">
