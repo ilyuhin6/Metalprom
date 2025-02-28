@@ -40,10 +40,6 @@ accordionItems.forEach(item => {
 
 
 
-
-
-
-
 // START Slider Production BIG Dislay
 
     const swiper = new Swiper(".mySwiper", {
@@ -58,33 +54,33 @@ accordionItems.forEach(item => {
       },
     });
 
+// START SLIDER ABOUT PAGE KONSALTING    
 
+const researchSlider = new Swiper('.research-slider', {
+  speed: 300,
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  navigation: {
+    nextEl: '.research-button-next',
+    prevEl: '.research-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+  },
+});
 
-
-// START Slider Mobail DISPLAY
-    var swiperMobailDisplay = new Swiper(".mySwiper-litle-display", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-
-
-
-
-
-
-    
 
 // Modal START
 let currentModal;   // текущие модальное окно

@@ -62,7 +62,7 @@ include_once('./header-page-title.php');
   <div class="about-container">
     <div class="wrapper-page-founder-about">
 
-      <div class="page-about-conten">
+      <div class="page-about-founder-content">
         <h2 class="page-about-title">Отношение к делу и к клиентам</h2>
         <p class="page-about-text">
           Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.
@@ -77,10 +77,60 @@ include_once('./header-page-title.php');
 </section>
 
 
+<section class="section section-page-content">
 
-<?php
-include_once('./tempalate-page/consating.php');
+  <div class="about-container">
+    <div class="about-container">
+      <h2 class="page-about-title" style="text-align: center;">Консалтинг (R&D)</h2>
+    </div>
+    <div class="swiper research-slider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/accordion/03.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/about/01.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/accordion/03.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/about/01.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/accordion/03.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/about/01.jpg" alt="" width="605" height="355">
+        </a>
+
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/accordion/03.jpg" alt="" width="605" height="355">
+        </a>
+        <a href="./blog-content.php" class="swiper-slide">
+          <img src="./img/about/01.jpg" alt="" width="605" height="355">
+        </a>
+
+      </div>
+      <div class="blog-slider-footer">
+        <div class="research-button-prev primary-button-prev">
+          <img src="./img/svg/prev.svg" alt="prev" class="primary-btn">
+        </div>
+        <div class="research-button-next primary-button-next">
+          <img src="./img/svg/next.svg" class="primary-btn">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<?
+include_once('./tempalate-page/call-to-action.php');
 ?>
+
 
 <?php
 include_once('./footer.php');

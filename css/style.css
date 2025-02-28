@@ -138,7 +138,7 @@ body {
   position: absolute;
   top: 1.6rem;
   left: 0;
-  width: 44.1%;
+  width: 40%;
   height: 100%;
   object-fit: cover;
 }
@@ -154,6 +154,51 @@ body {
 .wrapper-page-founder-about {
   display: flex;
   justify-content: flex-end;
+  gap: 50px;
+}
+
+.page-about-founder-content {
+  margin-top: 6rem;
+}
+
+.wrapper-about-slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.primary-button-prev {
+  display: flex;
+  align-items: center;
+}
+
+.slider-button-prev,
+.slider-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  cursor: pointer;
+}
+
+.primary-buttons-wrapper {
+  height: 40px;
+}
+
+.blog-slider-footer {
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.primary-btn {
+  display: block;
+  background-color: #00aaff;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  cursor: pointer;
 }
 
 /* .wrapper-aboute-page {
