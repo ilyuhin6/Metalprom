@@ -24,13 +24,13 @@
         <a class="mobile-menu-link" href="./about.html">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./contracts.php">наша продукция</a>
+        <a class="mobile-menu-link" href="./product.php">наша продукция</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="./product-avtohim.php">Швеллеры стальные</a>
+            <a class="mobile-submenu-link" href=">Швеллеры стальные</a>
           </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Шары стальные</a>
+          <li class=" mobile-submenu-item">
+              <a class="mobile-submenu-link" href="#">Шары стальные</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-link" href="#">Уголки стальные</a>
@@ -145,12 +145,12 @@
             </a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">
+            <a href="./about.php" class="header-nav-link">
               о нас
             </a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">
+            <a href="./product.php" class="header-nav-link">
               продукция
             </a>
           </li>
