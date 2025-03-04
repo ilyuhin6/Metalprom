@@ -21,7 +21,7 @@
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./about.html">О компании</a>
+        <a class="mobile-menu-link" href="./about.php">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a class="mobile-menu-link" href="./product.php">наша продукция</a>
