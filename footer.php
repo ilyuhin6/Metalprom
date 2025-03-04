@@ -6,7 +6,7 @@
           <h3 class="ttile-footer">Компания</h3>
           <ul class="footer-top-list">
             <li class="footer-top-item">
-              <a href="#" class="footer-top-item-link">
+              <a href="./about.php" class="footer-top-item-link">
                 О нас
               </a>
             </li>
@@ -41,12 +41,12 @@
           <h3 class="ttile-footer">Продукция</h3>
           <ul class="footer-top-list">
             <li class="footer-top-item">
-              <a href="" class="footer-top-item-link">
+              <a href="./product.php" class="footer-top-item-link">
                 Листовая сталь
               </a>
             </li>
             <li class="footer-top-item">
-              <a href="" class="footer-top-item-link">
+              <a href="./product.php" class="footer-top-item-link">
                 Рельсы
               </a>
             </li>
@@ -56,7 +56,7 @@
               </a>
             </li>
             <li class="footer-top-item">
-              <a href="" class="footer-top-item-link">
+              <a href="./product.php" class="footer-top-item-link">
                 Металопрокат
               </a>
             </li>
@@ -213,7 +213,7 @@
 
 <div class="modal" id="alert-modal">
   <div class="modal-dialog alerrt-modal-dialog">
-    <img src="./img/thanks.png" alt="спасибо" class="alert-modal-image" width="285" height="245">
+    <img src="./img/feedback.png" alt="спасибо" class="alert-modal-image" width="285" height="245">
     <h2 class="modal-title alert-modal-title">Спасибо за заявку!</h2>
     <a href="#" class="modal-close alert-modal-close" data-toggle="modal" data-target="#alert-modal">
       <img src="./img/svg/close.svg" alt="" class="close-icon" width="24" height="24">
