@@ -27,27 +27,27 @@
         <a class="mobile-menu-link" href="./product.php">наша продукция</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href=">Швеллеры стальные</a>
+            <a class="mobile-submenu-link" href="product.php">Швеллеры стальные</a>
           </li>
           <li class=" mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Шары стальные</a>
+            <a class="mobile-submenu-link" href="./product.php">Шары стальные</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Уголки стальные</a>
+            <a class="mobile-submenu-link" href="./product.php">Уголки стальные</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Профиль</a>
+            <a class="mobile-submenu-link" href="./product.php">Профиль</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Прокат</a>
+            <a class="mobile-submenu-link" href="./product.php">Прокат</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Полособульб</a>
+            <a class="mobile-submenu-link" href="./product.php">Полособульб</a>
           </li>
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./trademarks.php">подбор персонала</a>
+        <a class="mobile-menu-link" href="./jobs-primary.php">подбор персонала</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a class="mobile-menu-link" href="./blog.php">Новости</a>
@@ -155,7 +155,7 @@
             </a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">
+            <a href="./jobs-primary.php" class="header-nav-link">
               подбор персонала
             </a>
           </li>

@@ -24,6 +24,92 @@ body {
   font-family: "Ubuntu", serif;
 }
 
+/* SATRT PAGE JOB */
+
+.section-job {
+  margin-top: 100px;
+}
+
+.header-job {
+  background-image: url("../img/job-header/job-header-bg.jpg");
+  background-repeat: no-repeat;
+  max-height: 616px;
+  background-position: right;
+  padding: 5rem 0 6.25rem 0;
+}
+
+.header-job-hero {
+  font-family: "Ubuntu";
+  max-width: 40rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.header-job-deskr {
+  margin-top: 1.875rem;
+}
+
+.title-section-job {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  color: #292d33;
+}
+
+.wrapper-page-job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-section-job {
+  margin: 0;
+}
+
+.item-job-contentn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 2.1875rem;
+}
+
+.wrapper-contact-job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-job-title {
+  font-weight: 500;
+  font-size: 3.125rem;
+  columns: #292d33;
+}
+.page-job-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  color: #6b7179;
+}
+
+.page-job-item {
+  display: flex;
+  align-items: center;
+}
+
+.page-job-social {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.page-job-item {
+  margin-top: 20px;
+}
+
 /* START MOBILE MENU */
 .mobile-menu {
   display: none;
@@ -577,6 +663,11 @@ body {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 4rem;
+}
+
+.container-page {
+  max-width: 81.25rem;
+  margin: 0 auto;
 }
 .about-product {
   display: inline-flex;
