@@ -1085,6 +1085,39 @@ body {
   color: #828a99;
 }
 
+/* 
+START CTA -ENTER-PAGE */
+.title-enter-partners {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.form-partners-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-partners-reg {
+  display: inline-flex;
+  width: 31.25rem;
+  flex-direction: column;
+  padding: 5px 20px 20px 20px;
+  background-color: #f0f2f5;
+  border: 1px solid #f0f2f5;
+  border-radius: 5px;
+}
+
+.form-partners-input {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px silid red;
+}
+
 /* START Modal */
 
 .modal {

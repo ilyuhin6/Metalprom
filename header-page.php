@@ -53,7 +53,7 @@
         <a class="mobile-menu-link" href="./blog.php">Новости</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="">Контакты</a>
+        <a class="mobile-menu-link" href="./contakt.php">Контакты</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a class="mobile-menu-link" href="" data-toggle="modal" data-target="#feedback-modal">получить консультацию</a>
@@ -165,7 +165,7 @@
             </a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">
+            <a href="./contakt.php" class="header-nav-link">
               контакты
             </a>
           </li>
