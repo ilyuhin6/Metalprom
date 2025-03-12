@@ -447,6 +447,37 @@ body {
 
 /* START HEADER-NAV */
 
+.header-nav-item-users {
+  position: relative;
+}
+
+.dropdown {
+  display: none; /* Скрываем выпадающее меню по умолчанию */
+  position: absolute; /* Позиционируем его относительно родителя */
+  top: 100%; /* Поднимаем его ниже родительского элемента */
+  left: 0; /* Выравниваем по левому краю */
+  background-color: white; /* Цвет фона */
+  border-bottom: 1px solid #ccc; /* Рамка */
+  border-radius: 5px;
+  z-index: 1000; /* Чтобы оно было поверх других элементов */
+}
+
+.header-nav-item-users:hover .dropdown {
+  display: block; /* Показываем выпадающее меню при наведении на родительский элемент */
+}
+
+.dropdown-link {
+  display: block; /* Каждая ссылка занимает всю ширину */
+  padding: 10px 10px 10px 0; /* Отступы для удобства клика */
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #333333; /* Цвет текста */
+  font-weight: 500;
+}
+
+.dropdown-link:hover {
+  background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+
 .header-nav-link {
   color: #333333;
   font-weight: 400;
@@ -1039,6 +1070,10 @@ body {
   border: 0.0625rem dashed red;
 }
 
+.form-input-group-box {
+  position: relative;
+}
+
 .just-validate-error-label {
   position: absolute;
   top: 0;
@@ -1087,15 +1122,9 @@ body {
 
 /* 
 START CTA -ENTER-PAGE */
-.title-enter-partners {
-  font-size: 3rem;
-  font-weight: 500;
-  color: #333333;
-  text-align: center;
-  margin-bottom: 4.5rem;
-}
 
 .form-partners-content {
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1111,11 +1140,26 @@ START CTA -ENTER-PAGE */
   border-radius: 5px;
 }
 
+.form-partners-auth {
+  display: inline-flex;
+  width: 31.25rem;
+  flex-direction: column;
+  padding: 5px 20px 20px 20px;
+  background-color: #f0f2f5;
+  border: 1px solid #f0f2f5;
+  border-radius: 5px;
+}
+
 .form-partners-input {
   display: inline-block;
+  width: 100%;
   margin-bottom: 1rem;
   padding: 10px;
-  border: 1px silid red;
+  border: 1px solid rgba(0, 122, 255, 0.2);
+}
+
+.form-partners-input:focus-visible {
+  outline: 1px dashed rgb(240, 161, 161);
 }
 
 /* START Modal */

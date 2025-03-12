@@ -16,7 +16,9 @@
 
 <body>
 
-
+  <?php
+  session_start()
+  ?>
   <!-- START MOBILE MENU -->
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
@@ -59,7 +61,7 @@
         <a class="mobile-menu-link" href="" data-toggle="modal" data-target="#feedback-modal">получить консультацию</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="">вход</a>
+        <a class="mobile-menu-link" href="./enter.php">вход</a>
       </li>
     </ul>
 
@@ -156,7 +158,7 @@
           </li>
           <li class="header-nav-item">
             <a href="./jobs-primary.php" class="header-nav-link">
-              подбор персонала
+              вакансии
             </a>
           </li>
           <li class="header-nav-item">
@@ -174,10 +176,15 @@
               получить консультацию
             </a>
           </li>
-          <li class="header-nav-item">
-            <a href="" class="header-nav-link">
-              вход
-            </a>
+          <li class="header-nav-item header-nav-item-users">
+            <?php if (isset($_SESSION['auth'])) : ?>
+              <div class="user-profile">
+                <span class="username"><?= htmlspecialchars($_SESSION['user_name']) ?></span>
+                <a href="./func-php/logout.php" class="logout-link">Выйти</a>
+              </div>
+            <?php else : ?>
+              <a href="./enter-user.php" class="header-nav-link">Вход</a>
+            <?php endif; ?>
           </li>
         </ul>
       </div>

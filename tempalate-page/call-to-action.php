@@ -4,7 +4,7 @@
     <img src="./img/cta.png" alt="call to action" class="cta-image">
 
     <div class="cta-form-wrapper container">
-      <form action="./handler.php" method="POST" class="cta-form">
+      <form action="./handler.php" method="POST" class="cta-form" id="form">
         <h2 class="section-title cta-form-title">
           Хотите сотрудничать?
         </h2>

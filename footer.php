@@ -179,7 +179,7 @@
       Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
       поможем даже в самых сложных случаях!
     </p>
-    <form action="./handler.php" method="POST" class="modal-form">
+    <form action="./handler.php" method="POST" class="modal-form" id="form">
       <div class="input-group-wrapper input-group-vertical">
         <div class="input-group modal-input-group">
           <input id="modal-user-name" type="text" name="username" class="input modal-input" placeholder=" " required />

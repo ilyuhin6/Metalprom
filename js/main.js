@@ -107,8 +107,8 @@ document.addEventListener('keyup', (event) => {
     }
   });
 
-//Validation Form
-const forms = document.querySelectorAll('form');  //Собираем все формы с тегом form
+//Validation Form primary
+const forms = document.querySelectorAll('#form');  //Собираем все формы с тегом form
 forms.forEach(form => {
   const validation = new JustValidate(form, {
     errorFieldCssClass: 'is-invalid',
@@ -129,6 +129,78 @@ validation
     {
       rule: 'required',
       errorMessage: 'Укажите телефон',
+    },    
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target; //Наша форма
+    const formData = new FormData(thisForm); //Даные из нашей формы
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute('action'), {
+        method: thisForm.getAttribute('method'),
+        body: formData,
+      }).then((response) => {
+        if (response.ok) {
+          thisForm.reset();
+          // currentModal.classList.remove('is-open');
+          if (currentModal) {
+            currentModal.classList.remove('is-open');
+          }
+          alertModal.classList.add('is-open');
+          currentModal = alertModal;
+          modalDialog = currentModal.querySelector('.modal-dialog');  // назначаем диалоговое окно
+          currentModal.addEventListener('click', event => {   // отследиваем клик по окну и пустым областям
+      if (!event.composedPath().includes(modalDialog)) {  // если клик в пустую область (не диалог)
+        currentModal.classList.remove('is-open');  // Закрываем окно
+      }
+    })
+        } else {
+          alert('Ошибка! Текст ошибки: ' . response.statusText);
+        }
+      });      
+    };
+    ajaxSend(formData);
+  });
+});
+
+
+// валидация формы регистрации
+const validator = new JustValidate(document.querySelector('#form-registr'));
+forms.forEach(form => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: 'is-invalid',
+});
+validator
+  .addField(document.querySelector('#user_name'), [
+    {
+      rule: 'required',
+      errorMessage: 'Укажите Имя',
+    },
+    {
+      rule: 'minLength',
+      value: 3,
+      
+    },
+    {
+      rule: 'maxLength',
+      value: 15,
+    },
+  ])
+  .addField(document.querySelector('#user_email'), [
+    {
+      rule: 'required',
+      errorMessage: 'Укажите Почту',
+    },
+    {
+      rule: 'email',
+    },
+  ])
+  .addField(document.querySelector('#user_password'), [
+    {
+      rule: 'required',
+      errorMessage: 'Пароль не подходит',
+    },
+    {
+      rule: 'password',
     },
   ])
   .onSuccess((event) => {
@@ -161,6 +233,7 @@ validation
     ajaxSend(formData);
   });
 });
+
   
 
 //  Маска номера телефона
