@@ -1464,10 +1464,6 @@ START Footer Top */
     display: none;
   }
 
-  .main-block-product-mabaile {
-    display: block;
-  }
-
   .cta-image {
     display: none;
   }
@@ -1528,6 +1524,9 @@ START Footer Top */
     margin-top: 8.5rem;
     border: none;
     padding-bottom: 0.625rem;
+  }
+  .main-block-product-mabaile {
+    display: block;
   }
 }
 

@@ -1,4 +1,5 @@
 <?php
+$page_title = 'Главная';
 include_once('./header-page.php');
 ?>
 <!-- /.header-nav -->
@@ -57,9 +58,77 @@ include_once('./header-page.php');
     <!-- SLIDER BIG DISPLAY -->
     <div class="main-block-product">
         <?php include_once('./slider-big-display.php'); ?>
+
     </div>
 
-    <!-- PRODUCT mobile display -->
+    <!-- PRODUCT MOBILE DISPLAY -->
+    <div class="main-block-product-mabaile">
+        <div class="wrapper-page-product">
+
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Металлопрокат</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/01.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Литовая сталь</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/02.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Рельсы</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/03.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Металлопрофиль</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/04.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Шары</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/05.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-page-product-card">
+                <div class="page-product-card">
+                    <h3 class="page-product-card-title">Швелер</h3>
+                    <p class="page-product-card-descr">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
+                    <div class="box-product-image">
+                        <img src="./img/product-page/01.jpg" alt="Металлопрокат" class="page-product-image">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 
 
 

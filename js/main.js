@@ -54,6 +54,23 @@ accordionItems.forEach(item => {
       },
     });
 
+
+// START SLIDER PRODUCT MMOBAILE DISPLAY
+
+var swiperProductMobaile = new Swiper(".swiper-product-maobaile", {
+  effect: "flip",
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+
 // START SLIDER ABOUT PAGE KONSALTING    
 
 const researchSlider = new Swiper('.research-slider', {
@@ -106,6 +123,12 @@ document.addEventListener('keyup', (event) => {
       currentModal.classList.toggle('is-open');
     }
   });
+
+
+
+
+
+
 
 //Validation Form primary
 const forms = document.querySelectorAll('#form');  //Собираем все формы с тегом form
@@ -161,6 +184,11 @@ validation
     ajaxSend(formData);
   });
 });
+
+
+
+
+
 
 
 // валидация формы регистрации
