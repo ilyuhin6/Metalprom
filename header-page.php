@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css" />
   <title>Металпром - <?= $page_title; ?></title>
+  <meta name="description" content="Гурметзавод — ведущий производитель металлопроката в Гурьевске. Широкий ассортимент продукции: листовая сталь, рельсы, чугун. Доставка по всей России.">
+  <meta name="keywords" content="металлопрокат, листовая сталь, рельсы, чугун, Гурметзавод, Гурьевск, продажа металлопроката">
 </head>
 
 
@@ -61,7 +63,7 @@
         <a class="mobile-menu-link" href="" data-toggle="modal" data-target="#feedback-modal">получить консультацию</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a class="mobile-menu-link" href="./enter.php">вход</a>
+        <a class="mobile-menu-link" href="./enter-user.php">вход</a>
       </li>
     </ul>
 
@@ -70,7 +72,7 @@
       <!-- <svg class="address-svg">
                 <use href="./img/sprite.svg#address"></use>
             </svg> -->
-      <img src="./img/svg/address.svg" alt="address">
+      <img src="./img/svg/address.svg" alt="address" alt="адрес">
       <address class="mobile-info-address">
         г. Гурьевск, ул. Университетская, д. 2
       </address>
@@ -79,7 +81,7 @@
       <!-- <svg class="mail-svg">
                 <use href="./img/sprite.svg#mail"></use>
             </svg> -->
-      <img src="./img/svg/mail.svg" alt="mail">
+      <img src="./img/svg/mail.svg" alt="mail" alt="почта">
       <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
         a.dragunov@tdaliance.ru
       </a>
@@ -89,13 +91,13 @@
         <!-- <svg class="vk-svg">
                     <use href="./img/sprite.svg#vk"></use>
                 </svg> -->
-        <img src="./img/svg/vk.svg" alt="vk">
+        <img src="./img/svg/vk.svg" alt="vk" alt="Вконтакте">
       </a>
       <a href="#">
         <!-- <svg class="inst-svg">
                     <use href="./img/sprite.svg#inst"></use>
                 </svg> -->
-        <img src="./img/svg/inst.svg" alt="insta">
+        <img src="./img/svg/inst.svg" alt="insta" alt="Инстаграм">
       </a>
     </div>
   </div>
@@ -118,15 +120,15 @@
 
         <ul class="info-list">
           <li class="info-item">
-            <img src="./img/icon/Location.svg" alt="локация" width="30" height="30">
+            <img src="./img/icon/Location.svg" alt="локация" width="30" height="30" alt="Локация">
             <address>г. Гурьевск, ул. Университетская, д. 2</address>
           </li>
           <li class="info-item">
-            <img src="./img/icon/mail.svg" alt="mail" width="25" height="28">
+            <img src="./img/icon/mail.svg" alt="mail" width="25" height="28" alt="почта">
             <a href="mailto:a.dragunov@tdaliance.ru">a.dragunov@tdaliance.ru</a>
           </li>
           <li class="info-item">
-            <img src="./img/icon/Vector.svg" alt="phone" width="27" height="25">
+            <img src="./img/icon/Vector.svg" alt="phone" width="27" height="25" alt="Вектор следования">
             <a href="tel:88003800060">8-800-380-00-60</a>
           </li>
         </ul>

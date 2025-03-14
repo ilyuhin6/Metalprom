@@ -11,26 +11,26 @@
           <p class="biznes-work-left-text">
             Узкоспециализированный экспертный подход к поиску лучших сотрудников в нашу компанию.
           </p>
-          <a href="#" class="link-work-product">открыттые вакансии</a>
+          <a href="#" alt="подбор персонала" class="link-work-product">открыттые вакансии</a>
         </div>
         <div class="biznes-work-wrapper-right">
           <div class="biznes-work-content">
             <p class="biznes-work-right-text">
               Информационные <br> технологии
             </p>
-            <img src="./img/icon/work.svg" alt="">
+            <img src="./img/icon/work.svg" alt="IT">
           </div>
           <div class="biznes-work-content">
             <p class="biznes-work-right-text">
               производство
             </p>
-            <img src="./img/icon/work.svg" alt="">
+            <img src="./img/icon/work.svg" alt="Производство">
           </div>
           <div class="biznes-work-content">
             <p class="biznes-work-right-text">
               Энергетика
             </p>
-            <img src="./img/icon/work.svg" alt="">
+            <img src="./img/icon/work.svg" alt="Енергетика">
           </div>
         </div>
       </div>

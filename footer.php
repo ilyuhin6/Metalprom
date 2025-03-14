@@ -160,9 +160,9 @@
           Политика конфиденциальности
         </div>
         <div class="footer-down-partners">
-          <img src="./img/01.png" alt="партнер">
-          <img src="./img/02.png" alt="партнер">
-          <img src="./img/03.png" alt="партнер">
+          <img src="./img/01.png" alt="партнер1">
+          <img src="./img/02.png" alt="партнер2">
+          <img src="./img/03.png" alt="партнер3">
         </div>
       </div>
     </div>
@@ -173,7 +173,7 @@
   <div class="modal-dialog">
     <h2 class="modal-title">Есть вопросы?</h2>
     <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
-      <img src="./img/svg/close.svg" alt="" class="close-icon" width="24" height="24">
+      <img src="./img/svg/close.svg" alt="закрыть" class="close-icon" width="24" height="24">
     </a>
     <p class="modal-text">
       Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
@@ -194,7 +194,7 @@
       </div>
       <!-- /.input-group-wrapper -->
       <div class="modal-form-footer">
-        <button type="submit" class="button modal-form-button">Отправить заявку</button>
+        <button type="submit" class="button modal-form-button button cta-form-button">Отправить заявку</button>
         <div class="notify">
           <img src="./img/svg/shield.svg" alt="shield" width="14" height="14" class="notify-icon">
           <p class="notify-text">
@@ -221,7 +221,7 @@
     <p class="modal-text alert-modal-text">
       Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
     </p>
-    <a href="./index.php" class="button modal-form-button alert-modal-link">Вернуться на главную</a>
+    <a href="./index.php" class="button modal-form-button alert-modal-link ">Вернуться на главную</a>
   </div>
   <!-- /.modal-dialog -->
 </div>
