@@ -24,6 +24,15 @@ body {
   font-family: "Ubuntu", serif;
 }
 
+/*BUTTON*/
+.cta-form-button:hover {
+  background-color: #277da8;
+}
+.news-link-more:hover {
+  color: #333333;
+  border-color: #007aff;
+}
+
 /* SATRT PAGE JOB */
 
 .section-job {

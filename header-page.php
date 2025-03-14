@@ -180,8 +180,10 @@
           </li>
           <li class="header-nav-item header-nav-item-users">
             <?php if (isset($_SESSION['auth'])) : ?>
-              <div class="user-profile">
-                <span class="username"><?= htmlspecialchars($_SESSION['user_name']) ?></span>
+              <div class="user-profile" style="position: relative;">
+                <img src="./img/users-enter/users.png" alt="аватар пользователя" class="user-profile-avatar" width="47" height="47" style="position: relative; top: 15px; left: -10px;">
+                <span class="username" style="font-weight: 600; text-transform: uppercase; margin-right: 10px"><?= htmlspecialchars($_SESSION['user_name']) ?></span>
+
                 <a href="./func-php/logout.php" class="logout-link">Выйти</a>
               </div>
             <?php else : ?>
