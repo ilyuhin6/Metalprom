@@ -30,17 +30,6 @@ include_once('./header-page-title.php');
         <button type="submit" class="button cta-form-button">Submit</button>
       </form>
 
-
-
-
-
-
-
-
-
-
-
-
       <form action="./func-php/avtorize.php" method="POST" class="form-partners-auth">
         <h3 class="title-form-partners">Авторизация</h3>
         <input type="text" class="form-partners-input" name="user-email" placeholder="Почта" required>

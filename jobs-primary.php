@@ -29,7 +29,7 @@ include_once('./header-page.php');
         <div class="page-content-list">
           <ul class="job-content-list">
             <li class="item-job-contentn">
-              <img src="./img/icon/check.png" width="45" height="45" alt="чекбокс">
+              <img src="./img/icon/check.png" class="job-image" width="45" height="45" alt="чекбокс">
               Конкурентоспособную и справедливую оплату труда.
             </li>
             <li class="item-job-contentn">

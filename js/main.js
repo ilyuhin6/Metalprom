@@ -57,7 +57,7 @@ accordionItems.forEach(item => {
 
 // START SLIDER PRODUCT MMOBAILE DISPLAY
 
-var swiperProductMobaile = new Swiper(".swiper-product-maobaile", {
+const swiperProductMobaile = new Swiper(".swiper-product-maobaile", {
   effect: "flip",
   grabCursor: true,
   pagination: {

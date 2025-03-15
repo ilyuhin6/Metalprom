@@ -1697,6 +1697,28 @@ START Footer Top */
   .catalog-image {
     display: none;
   }
+  .form-partners-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .wrapper-contact-job {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 0 0 0.9375rem;
+  }
+  .wrapper-page-job {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .job-image {
+    display: none;
+  }
+  .container-about {
+    padding: 0 5px 0 10px;
+  }
 }
 
 @media (max-width: 400px) {
