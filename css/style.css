@@ -1719,6 +1719,17 @@ START Footer Top */
   .container-about {
     padding: 0 5px 0 10px;
   }
+  .section-jop {
+    padding: 0 0 0 15px;
+  }
+  .founder-image {
+    display: none;
+  }
+  .wrapper-page-about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 400px) {
